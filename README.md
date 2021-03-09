@@ -53,4 +53,4 @@ Remember that you have to put in the body something like this:
 }
 ```
 
-On another hand for getting all the players that are in the h2 just use in get ```localhost:8080/players```
+On another hand for getting all the players that are in the h2 just use get ```localhost:8080/players```
