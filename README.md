@@ -31,3 +31,26 @@ mvn clean install
 mvn spring-boot:run
 ```
 
+### Usage of the Project
+For inserting new elements just go to: ```localhost:8080/playerlist```
+Remember that you have to put in the body something like this:
+```bash
+{
+  "players": [
+    {
+      "name": "Sub zero",
+      "type": "expert"
+    },
+    {
+      "name": "Scorpion",
+      "type": "novice"
+    },
+    {
+      "name": "Reptile",
+      "type": "meh"
+    }
+  ]
+}
+```
+
+On another hand for getting all the players that are in the h2 just use in get ```localhost:8080/players```
